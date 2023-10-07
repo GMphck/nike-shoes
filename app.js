@@ -38,10 +38,10 @@ const headerContent = document.querySelector("#header__content");
 
 const showMenuClass = "show-menu";
 
-document.querySelector("#btn-close-menu").addEventListener("click", () => {
-  headerContent.classList.remove(showMenuClass);
-});
-
 document.querySelector("#btn-open-menu").addEventListener("click", () => {
   headerContent.classList.add(showMenuClass);
+});
+
+document.querySelector("#btn-close-menu").addEventListener("click", () => {
+    headerContent.classList.remove(showMenuClass);
 });
